@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.modo_sexo{
+    display: flex;
+    justify-content: center;
+    height: 2000px;
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: red;
+    z-index: 100;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+#btn_yes{
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+
+    color: azure;
+    font-size: xx-large;
+    padding: 32px;
+}
+
+#btn_yes:hover{
+    background-color: white;
+    color: cadetblue;
+}
+
